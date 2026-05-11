@@ -1,13 +1,3 @@
-#  System Zarządzania Magazynem — 7 wymagań:
-#
-#   1. Magazyn startuje z kilkoma produktami — każdy produkt ma nazwę jako klucz i ilość jako wartość.
-#   2. Program wyświetla menu z opcjami i działa w pętli do momentu aż manager wybierze wyjście.
-#   3. Manager może sprawdzić stan konkretnego produktu. Jeśli produkt nie istnieje — informacja bez crashu.
-#   4. Manager może przyjąć dostawę — podaje nazwę i ilość do dodania. Jeśli produkt już jest — ilość się zwiększa. Jeśli nowy — zostaje dodany.
-#   5. Manager może wysłać towar — podaje nazwę i ilość. Jeśli produktu nie ma lub jest za mało — odpowiedni komunikat. Jeśli wystarczy — ilość się zmniejsza. Jeśli po wysyłce zostaje 0 — produkt znika z magazynu.
-#   6. Manager może wyświetlić pełny raport — wszystkie produkty posortowane alfabetycznie z ich stanami.
-#   7. Na końcu każdej operacji wyświetl aktualną liczbę unikalnych produktów w magazynie.
-
 items = {}
 
 while True:
